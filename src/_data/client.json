@@ -1,15 +1,9 @@
 {
-    "name": "Code Stitch Web Designs",
-    "email": "help@codestitch.app",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
-    "address": {
-        "lineOne": "First Address Line",
-        "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
-        "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
-    },
-    "domain": "https://www.codestitch.app"
+    "name": "Jenny DeSilver Portfolio",
+    "email": "jenny.desilver@outlook.com",
+        "city": "Belle River ",
+        "state": "ON, Canada",
+        "zip": "N8L 0T9"
+,
+    "domain": "https://jsilverphotography.netlify.app/"
 }
