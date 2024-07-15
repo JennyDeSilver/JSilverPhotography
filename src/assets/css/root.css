@@ -5,10 +5,10 @@
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #9200f3;
-    --primaryLight: #f3f723;
-    --secondary: #c002e6;
-    --secondaryLight: #d8d508;
+    --primary: #ad1cf0;
+    --primaryLight: #5b0b63;
+    --secondary: #b5c014;
+    --secondaryLight: #eff319;
     --headerColor: #1a1a1a;
     --bodyTextColor: #4e4b66;
     --bodyTextColorWhite: #fafbfc;
@@ -493,7 +493,7 @@ html {
     align-items: center;
   }
   #cs-navigation .cs-logo {
-    width: 13.0625rem;
+    width: 4.6875rem;
     height: auto;
     margin: 0 auto 0 0;
     /* prevents padding from affecting height and width */
@@ -995,7 +995,7 @@ html {
     height: 100%;
   }
   body.scroll #cs-navigation .cs-logo {
-    transform: translateY(5rem);
+    transform: translateY(-5rem);
   }
   body.scroll #cs-navigation .cs-top-bar:before {
     background-color: rgba(0, 0, 0, 0.4);
@@ -1116,7 +1116,7 @@ html {
     width: 100%;
     max-width: 80rem;
     /* same height as the cs-ul-wrapper */
-    height: 4.5rem;
+    height: 7.8125rem;
     margin: auto;
     /* prevents padding from affectin gheight */
     box-sizing: border-box;
@@ -1131,8 +1131,8 @@ html {
     display: none;
   }
   #cs-navigation .cs-logo {
-    width: 18.4%;
-    height: 2.5rem;
+    width: 25%;
+    height: 100%;
     /* margin-right auto pushes everything away from it to the right */
     margin: 0 auto 0 0;
     padding: 0;
@@ -1514,9 +1514,8 @@ html {
     text-align: center;
   }
   #footer .left-section .logo img {
-    display: block;
-    height: 100%;
-    width: auto;
+    height: 150px;
+    width: 170px;
   }
   #footer .left-section p {
     opacity: 0.9;

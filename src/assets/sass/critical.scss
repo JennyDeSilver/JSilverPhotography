@@ -11,7 +11,7 @@
         /* Centers button */
         text-align: center;
         /* changes on tablet */
-        padding: 0 calc(16 / 16 * 1rem);
+        padding: 0px;
         padding-bottom: calc(100 / 16 * 1rem);
         position: relative;
         z-index: 1;
@@ -189,7 +189,9 @@
         padding: 0 clamp(2em, 5vw, 2.5em);
 
         .cs-container {
-            padding: clamp(7em, 27.95vw, 17.5em) 0 clamp(9em, 30.95vw, 23.5em) 0;
+            // padding: clamp(7em, 27.95vw, 17.5em) 0 clamp(9em, 30.95vw, 23.5em) 0;
+            padding: clamp(3em, 17vw, 10em) 0 clamp(3em, 15vw, 23.5em) 0;
+            
             &:after {
                 /* Right Line */
                 content: "";
@@ -286,8 +288,8 @@
                 align-items: center;
 
                 img {
-                    width: calc(48 / 16 * 1em);
-                    height: calc(48 / 16 * 1em);
+                    width: calc(110 / 16 * 1em);
+                    height: calc(110 / 16 * 1em);
                 }
             }
             h2 {
