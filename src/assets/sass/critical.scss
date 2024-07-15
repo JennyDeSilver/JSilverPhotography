@@ -190,8 +190,8 @@
 
         .cs-container {
             // padding: clamp(7em, 27.95vw, 17.5em) 0 clamp(9em, 30.95vw, 23.5em) 0;
-            padding: clamp(3em, 17vw, 10em) 0 clamp(3em, 15vw, 23.5em) 0;
-            
+            // padding: clamp(3em, 10vw, 10em) 0 clamp(3em, 7vw, 10em) 0;
+            padding: clamp(3em, 10vw, 10em) 0 clamp(1em, 3vw, 5em) 0;
             &:after {
                 /* Right Line */
                 content: "";

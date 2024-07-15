@@ -1279,7 +1279,7 @@ html {
     color: var(--bodyTextColorWhite);
   }
   body.dark-mode #cs-navigation .cs-li-link.cs-active {
-    color: var(--primary);
+    color: var(--bodyTextColorWhite);
   }
   body.dark-mode #cs-navigation .cs-li:hover .cs-li-link {
     color: var(--primary);

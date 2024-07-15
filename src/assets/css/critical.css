@@ -162,7 +162,7 @@
     padding: 0 clamp(2em, 5vw, 2.5em);
   }
   #hero .cs-container {
-    padding: clamp(3em, 17vw, 10em) 0 clamp(3em, 15vw, 23.5em) 0;
+    padding: clamp(3em, 10vw, 10em) 0 clamp(1em, 3vw, 5em) 0;
   }
   #hero .cs-container:after {
     /* Right Line */

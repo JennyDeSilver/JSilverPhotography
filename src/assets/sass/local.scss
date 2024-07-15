@@ -429,7 +429,7 @@
 
         .cs-title {
             text-align: center;
-            max-width: calc(621 / 16 * 1rem);
+            max-width: 100%;
             margin-bottom: calc(40 / 16 * 1rem);
         }
 
@@ -526,6 +526,8 @@
         #gallery {
             .cs-title {
                 color: var(--bodyTextColorWhite);
+                display: block;
+                text-align: center;
             }
         }
     }
