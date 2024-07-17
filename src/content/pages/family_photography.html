@@ -12,7 +12,7 @@ eleventyNavigation:
 {% extends "layouts/base.html" %}
 
 {% block head %}
-    <!-- Any page-specific tags that belong in the <head>, such as a page-specific stylesheet -->
+<link rel="stylesheet" href="/assets/css/family_photography.css">
 {% endblock %}
 
 {% block body %}
@@ -23,6 +23,66 @@ eleventyNavigation:
     <h1 id="home-h">Family Photos</h1>
     
 </section>
+<!-- ============================================ -->
+<!--                  Pricing                     -->
+<!-- ============================================ -->
+
+<section id="pricing-995">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Pricing</span>
+            <h2 class="cs-title">Family Photo Sessions</h2>
+            <!--Menu-->
+            <ul class="cs-menu-group">
+                <li class="cs-menu-item">
+                    <h3 class="cs-h3">
+                        <span class="cs-header">Session One</span>
+                        <span class="cs-price">$75</span>
+                    </h3>
+                    <p class="cs-menu-text">
+                        <br>- 1 hour </br>
+                        <br>- 10-15 Edited Photos <br>
+                        <br>- USB with Photos</br>
+                    </p>
+                </li>
+                <li class="cs-menu-item">
+                    <h3 class="cs-h3">
+                        <span class="cs-header">Package Two</span>
+                        <span class="cs-price">$140</span>
+                    </h3>
+                    <p class="cs-menu-text">
+                        <br>- 2 hour </br>
+                        <br>- 15-20 Edited Photos <br>
+                        <br>- USB with Photos</br>
+                    </p>
+                </li>
+               
+                <li class="cs-menu-item">
+                    <h3 class="cs-h3">
+                        <span class="cs-header">Package Three</span>
+                        <span class="cs-price">$200</span>
+                    </h3>
+                    <p class="cs-menu-text">
+                        <br>- 3 hours </br>
+                        <br>- 20-25 Edited Photos <br>
+                        <br>- USB with Photos</br>
+                    </p>
+                </li>
+                
+            </ul>
+        </div>
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/salon3.jpg">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/salon3.jpg">
+            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/salon3.jpg" alt="hair salon" width="521" height="640">
+        </picture>
+    </div>
+</section>
+
+
+                                
 {% endblock %}
 
 
